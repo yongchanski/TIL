@@ -4,130 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  
-   <style>
-     .nav {
-       height:70px;
-       border-bottom:3px solid black;
-       display:flex;
-       align-items:center;
-       margin-right: 25px;
-     }
-     .company-name{
-       margin-left:20px;
-       font-size: 20px;
-     }
-     
-     .nav-right-items{
-       display:flex;
-       margin-left:auto;
-     }
-     
-     .nav-item{
-       margin-left:10px;
-       font-size: 20px;
-     }
-
-     .nav-item-button{
-        color: #007bff;
-        background-color: transparent;
-        background-image: none;
-        border-color: #007bff;
-        border-radius: .3rem;
-     }
-
-     .title{
-       font-size:3.5rem;
-       font-weight:300;
-       text-align:center;
-       margin-bottom: 20px;
-     }
-     .sub-title{
-       font-size:1.25rem;
-       font-weight:300;
-       text-align:center;
-     }
-     
-     .main{
-       width:1000px;
-       margin:0 auto;
-       margin-top:60px;
-     }
-     
-     .prices{
-       display:flex;
-       padding-top: 30px;
-     }
-
-     .price-item{
-       width:300px;
-       height:300px;
-       border:2px solid gray;
-       margin:20px;
-       border-radius:4px;
-     }
-     
-     .price-item-title{
-       font-size: 1.5rem;
-       background: rgba(0, 0, 0, .03);
-       height: 53px;
-       line-height: 53px;
-       border-bottom: 2px solid gray;
-       text-align: center;
-     }
-
-     .price-item-price{
-       margin-top: 10;
-       font-size: 2.5rem;
-       font-weight: bold;
-       padding: 10px;
-       padding-top: 5px;
-      }
-
-      .price-item-button1{
-        padding: .5rem 1rem;
-        font-size: 1.25rem;
-        line-height: 1.5;
-        border-radius: .3rem;
-        color: #007bff;
-        background-color: transparent;
-        background-image: none;
-        border-color: #007bff;
-        margin-top: 8px;
-        padding-left: 50px;
-        padding-right: 50px;
-      }
-
-      .price-item-button2{
-        padding: .5rem 1rem;
-        font-size: 1.25rem;
-        line-height: 1.5;
-        border-radius: .3rem;
-        color: white;
-        background-color: #007bff;
-        background-image: none;
-        border-color: #007bff;
-        margin-top: 8px;
-        padding-left: 80px;
-        padding-right: 80px;
-      }
-
-      .price-item-button3{
-        padding: .5rem 1rem;
-        font-size: 1.25rem;
-        line-height: 1.5;
-        border-radius: .3rem;
-        color: white;
-        background-color: #007bff;
-        background-image: none;
-        border-color: #007bff;
-        margin-top: 8px;
-        padding-left: 80px;
-        padding-right: 80px;
-      }
-
-   </style>
+    <link rel="stylesheet" href="index.css">
   </head>
   
   <body>
@@ -143,6 +20,7 @@
        <button class="nav-item nav-item-button">Sign up</button>
       </div>
     </div>
+    <div class="underline"></div>
    <div class="main">
      <div class="title">Pricing</div>
      <div class="sub-title">
@@ -153,7 +31,7 @@
            Free
          </div>
          <div class="price-item-price">
-           $0 / mo
+          $0 <span style="font-size: 30px; color:gray;">/ mo</span>
          </div>
          <div class="price-item-detail">
            10 users included
@@ -173,10 +51,10 @@
        </div>
        <div class="price-item">
         <div class="price-item-title">
-          2
+          Pro
         </div>
         <div class="price-item-price">
-         $0 / mo
+          $15 <span style="font-size: 30px; color:gray;">/ mo</span>
         </div>
         <div class="price-item-detail">
           20 users included
@@ -196,10 +74,10 @@
        </div>
        <div class="price-item">
         <div class="price-item-title">
-          3
+          Enterprise
         </div>
         <div class="price-item-price">
-         $0 / mo
+         $29 <span style="font-size: 30px; color:gray;">/ mo</span>
         </div>
         <div class="price-item-detail">
           30 users included
