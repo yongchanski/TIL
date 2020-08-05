@@ -1,0 +1,82 @@
+// 1월 1일부터 오늘까지 며칠이 지났는지 알려주는 프로그램. 2020.08.05
+
+int month, day, sum;
+
+int DayCounter(){
+
+    while(month == 1)
+    {
+        sum = 0 + day;
+    }
+    
+    while(month == 2)
+    {
+        sum = 31 + day;
+    }
+
+    while(month == 3)
+    {
+        sum = 59 + day;
+    }
+
+    while(month == 4)
+    {
+        sum = 90 + day;
+    }
+
+    while(month == 5)
+    {
+        sum =120 + day;
+    }
+
+    while(month == 6)
+    {
+        sum = 151 + day;
+    }
+
+    while(month == 7)
+    {
+        sum = 181 + day;
+    }
+
+    while(month == 8)
+    {
+        sum = 212 + day;
+    }
+
+    while(month == 9)
+    {
+        sum = 243 + day ;
+    }
+
+    while(month == 10)
+    {
+        sum = 274 + day;
+    }
+
+    while(month == 11)
+    {
+        sum = 304 + day;
+    }
+
+    while(month == 12)
+    {
+        sum = 335 + day;
+    }
+
+}
+
+#include<stdio.h>
+int main(void){
+
+    printf("month: ");
+    scanf("%d", &month);
+    printf("day: ");
+    scanf("%d", &day);
+
+    DayCounter();
+
+    printf("result: %d", sum);
+
+    return 0;
+}
